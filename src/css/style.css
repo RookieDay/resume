@@ -75,3 +75,76 @@ aside a {
     box-sizing: border-box;
     margin-bottom: -10000px;
 }
+
+.title {
+    margin: 25px 0 20px;
+    text-align: center;
+}
+
+.title img {
+    display: block;
+    margin: 0 auto 5px;
+    width: 120px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+.slide-info li {
+    padding-top: 20px;
+}
+
+.slide-info dt {
+    font-size: 18px;
+    color: #9f3;
+    line-height: 40px;
+}
+
+.slide-info dd {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.someRight dd {
+    margin-left: 25px;
+}
+
+.skill {
+    position: relative;
+}
+
+.skill-name {
+    width: 100px;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    top: -3px;
+}
+
+.skill-bar-wrap {
+    height: 17px;
+    width: 150px;
+    background: #00796b;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.skill-bar {
+    height: 17px;
+    background: #fff;
+    border-radius: 20px 0 0 20px;
+}
+
+.note {
+    text-indent: 2em;
+    margin-top: 90px;
+    color: #004d40;
+    font-size: 18px;
+}
