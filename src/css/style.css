@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e0e0e0;
+    font-family: 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, 'Hiragino Sans GB', 微软雅黑, 'WenQuanYi Micro Hei', STHeiti, SimSun, sans-serif;
+    min-width: 1080px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+dt,
+dd,
+p {
+    cursor: default;
+}
+
+aside {
+    position: fixed;
+    right: 0;
+    top: 30%;
+    z-index: 2;
+}
+
+aside li {
+    margin-bottom: 10px;
+    border-radius: 10px 0 0 10px;
+    background: #00bfa5;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+aside a {
+    color: #fff;
+    display: inline-block;
+    width: 80px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+}
+
+.container {
+    position: relative;
+    margin: 10px auto;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    width: 1060px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.slidebar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    padding: 15px 15px 10000px;
+    background: #00bfa5;
+    color: #fff;
+    line-height: 1.5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: -10000px;
+}
