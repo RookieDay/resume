@@ -3,5 +3,6 @@
 .icon-heart:before { content: '\e801'; } /* '' */
 .icon-bookmark:before { content: '\e802'; } /* '' */
 .icon-mobile:before { content: '\e803'; } /* '' */
+.icon-down-circled:before { content: '\f0ab'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
 .icon-wechat:before { content: '\f1d7'; } /* '' */
